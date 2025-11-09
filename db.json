@@ -1,0 +1,17 @@
+{
+  "users": [
+    { "id": 1, "username": "admin", "password": "admin123", "role": "admin" },
+    { "id": 2, "username": "user", "password": "user123", "role": "user" }
+  ],
+  "waste": [
+    { "id": 1, "location": "Sector 1", "weight": 250, "status": "Collected", "date": "2025-11-01", "lat": 10, "lng": 15 },
+    { "id": 2, "location": "Sector 2", "weight": 180, "status": "Pending", "date": "2025-11-03", "lat": 30, "lng": 40 },
+    { "id": 3, "location": "Sector 3", "weight": 300, "status": "Collected", "date": "2025-10-25", "lat": 50, "lng": 20 },
+    { "id": 4, "location": "Sector 4", "weight": 220, "status": "Collected", "date": "2025-10-28", "lat": 70, "lng": 35 },
+    { "id": 5, "location": "Sector 5", "weight": 150, "status": "Pending", "date": "2025-11-05", "lat": 85, "lng": 50 }
+  ],
+  "vehicles": [
+    { "id": 1, "number": "MP04 AB 1234", "driver": "Ravi Sharma", "status": "Active" },
+    { "id": 2, "number": "MP04 XY 5678", "driver": "Suresh Gupta", "status": "Inactive" }
+  ]
+}
